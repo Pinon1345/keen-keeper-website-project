@@ -6,8 +6,8 @@ import { RiTimeLine } from 'react-icons/ri';
 
 const Navbar = () => {
     return (
-        <div>
-            <div className='bg-base-100 shadow-lg shadow-gray-200 flex justify-between items-center gap-6 px-8 py-3 mb-4'>
+        <div className='sticky top-0 z-50 bg-white'>
+            <div className='bg-base-100 shadow-lg shadow-gray-200 flex justify-between items-center gap-6 px-8 py-3 mb-4 rounded-b-2xl border-white'>
                 <div>
                     <Image
                         src="/logo.png"
