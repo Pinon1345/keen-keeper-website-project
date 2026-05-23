@@ -1,0 +1,75 @@
+"use client";
+
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import React from 'react';
+import { AiOutlineHome } from 'react-icons/ai';
+import { MdOutlineQueryStats } from 'react-icons/md';
+import { RiTimeLine } from 'react-icons/ri';
+
+const Navbar = () => {
+
+    const pathName = usePathname()
+    console.log("this is path name:", pathName);
+
+    return (
+        <div className='sticky top-0 z-50 bg-white'>
+            <div className='bg-base-100 shadow-lg shadow-gray-200 flex justify-between items-center gap-6 px-8 py-3 mb-3 rounded-b-2xl border-white'>
+                <div>
+                    <Image
+                        src="/logo.png"
+                        alt='navbarLogo'
+                        width={180}
+                        height={180}
+                    >
+                    </Image>
+
+                </div>
+
+                <div className='flex sm:flex-row flex-col items-center gap-4 text-gray-500'>
+
+                    <Link
+                        href="/"
+                        className={`${pathName === "/" ? "btn primary-btn" : ""}`}>
+
+                        <button className='cursor-pointer'>
+                            <div className='flex items-center gap-2 text-lg'>
+                                <AiOutlineHome></AiOutlineHome>
+                                <h2 className='font-semibold'>Home</h2>
+                            </div>
+                        </button>
+                    </Link>
+
+                    <Link
+                        href="/timeline"
+                        className={`${pathName === "/timeline" ? "btn primary-btn" : ""}`}>
+
+                        <button className='cursor-pointer'>
+                            <div className='flex items-center gap-2 text-lg'>
+                                <RiTimeLine></RiTimeLine>
+                                <h2 className='font-semibold'>Timeline</h2>
+                            </div>
+                        </button>
+                    </Link>
+
+                    <Link
+                        href="/stats"
+                        className={`${pathName === "/stats" ? "btn primary-btn" : ""}`}>
+
+                        <button className='cursor-pointer'>
+                            <div className='flex items-center gap-2 text-lg'>
+                                <MdOutlineQueryStats></MdOutlineQueryStats>
+                                <h2 className='font-semibold'>Stats</h2>
+                            </div>
+                        </button>
+                    </Link>
+                </div>
+
+            </div>
+
+        </div>
+    );
+};
+
+export default Navbar;

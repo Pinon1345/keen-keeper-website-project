@@ -1,3 +1,4 @@
+import Banner from "@/components/homePage/Banner";
 
 
 export const metadata = {
@@ -8,7 +9,9 @@ export const metadata = {
 export default function Home() {
   return (
 
-    <h2 className="text-2xl font-bold bg-amber-200 text-center">Hello Next.js</h2>
+    // <h2 className="text-2xl font-bold bg-[#F8FAFC] text-center">Hello Next.js</h2>
+
+    <Banner></Banner>
 
 
   );
