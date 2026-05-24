@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Ariana Mitchell",
+        "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+        "email": "ariana.mitchell@example.com",
+        "days_since_contact": 18,
+        "status": "Overdue",
+        "tags": [
+            "College",
+            "Best Friend"
+        ],
+        "bio": "Met during first year at university. We still plan weekend coffee hangouts and photography walks.",
+        "goal": 14,
+        "next_due_date": "2026-06-01"
+    },
+    {
+        "id": 2,
+        "name": "Daniel Carter",
+        "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+        "email": "daniel.carter@example.com",
+        "days_since_contact": 10,
+        "status": "Almost Due",
+        "tags": [
+            "Office",
+            "Gym Buddy"
+        ],
+        "bio": "Worked together at a startup internship. Often discuss fitness routines and career plans.",
+        "goal": 12,
+        "next_due_date": "2026-05-27"
+    },
+    {
+        "id": 3,
+        "name": "Sophia Nguyen",
+        "picture": "https://randomuser.me/api/portraits/women/45.jpg",
+        "email": "sophia.nguyen@example.com",
+        "days_since_contact": 4,
+        "status": "On-Track",
+        "tags": [
+            "Design",
+            "Creative"
+        ],
+        "bio": "Collaborated on multiple UI/UX projects. Loves minimalist design and digital art.",
+        "goal": 14,
+        "next_due_date": "2026-06-06"
+    },
+    {
+        "id": 4,
+        "name": "Marcus Reed",
+        "picture": "https://randomuser.me/api/portraits/men/40.jpg",
+        "email": "marcus.reed@example.com",
+        "days_since_contact": 22,
+        "status": "Overdue",
+        "tags": [
+            "School",
+            "Football"
+        ],
+        "bio": "Old school teammate who now coaches local football tournaments in the city.",
+        "goal": 15,
+        "next_due_date": "2026-05-29"
+    },
+    {
+        "id": 5,
+        "name": "Emily Johnson",
+        "picture": "https://randomuser.me/api/portraits/women/56.jpg",
+        "email": "emily.johnson@example.com",
+        "days_since_contact": 11,
+        "status": "Almost Due",
+        "tags": [
+            "Travel",
+            "Close Friend"
+        ],
+        "bio": "Travel partner for several mountain trips. Always recommends hidden food spots.",
+        "goal": 14,
+        "next_due_date": "2026-05-30"
+    },
+    {
+        "id": 6,
+        "name": "Ryan Brooks",
+        "picture": "https://randomuser.me/api/portraits/men/51.jpg",
+        "email": "ryan.brooks@example.com",
+        "days_since_contact": 3,
+        "status": "On-Track",
+        "tags": [
+            "Gaming",
+            "Discord"
+        ],
+        "bio": "Met through online gaming tournaments and later became a close personal friend.",
+        "goal": 10,
+        "next_due_date": "2026-06-04"
+    },
+    {
+        "id": 7,
+        "name": "Isabella Flores",
+        "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+        "email": "isabella.flores@example.com",
+        "days_since_contact": 17,
+        "status": "Overdue",
+        "tags": [
+            "Book Club",
+            "Writer"
+        ],
+        "bio": "Runs a monthly reading club and writes short stories inspired by everyday life.",
+        "goal": 14,
+        "next_due_date": "2026-05-25"
+    },
+    {
+        "id": 8,
+        "name": "Noah Thompson",
+        "picture": "https://randomuser.me/api/portraits/men/61.jpg",
+        "email": "noah.thompson@example.com",
+        "days_since_contact": 8,
+        "status": "On-Track",
+        "tags": [
+            "Developer",
+            "Nextjs"
+        ],
+        "bio": "Frontend developer friend who enjoys building SaaS products and teaching React concepts.",
+        "goal": 14,
+        "next_due_date": "2026-06-03"
+    },
+    {
+        "id": 9,
+        "name": "Chloe Bennett",
+        "picture": "https://randomuser.me/api/portraits/women/74.jpg",
+        "email": "chloe.bennett@example.com",
+        "days_since_contact": 13,
+        "status": "Almost Due",
+        "tags": [
+            "Music",
+            "Concert buddy"
+        ],
+        "bio": "We attend indie music concerts together and exchange playlists every month.",
+        "goal": 15,
+        "next_due_date": "2026-05-28"
+    },
+    {
+        "id": 10,
+        "name": "Ethan Walker",
+        "picture": "https://randomuser.me/api/portraits/men/77.jpg",
+        "email": "ethan.walker@example.com",
+        "days_since_contact": 2,
+        "status": "On-Track",
+        "tags": [
+            "Neighbor",
+            "Basketball"
+        ],
+        "bio": "Neighborhood friend who organizes evening basketball games every Friday.",
+        "goal": 10,
+        "next_due_date": "2026-06-07"
+    },
+    {
+        "id": 11,
+        "name": "Mia Robinson",
+        "picture": "https://randomuser.me/api/portraits/women/80.jpg",
+        "email": "mia.robinson@example.com",
+        "days_since_contact": 19,
+        "status": "Overdue",
+        "tags": [
+            "Volunteer",
+            "Community"
+        ],
+        "bio": "Met during a local charity campaign. Passionate about community development work.",
+        "goal": 14,
+        "next_due_date": "2026-05-26"
+    },
+    {
+        "id": 12,
+        "name": "Liam Harris",
+        "picture": "https://randomuser.me/api/portraits/men/85.jpg",
+        "email": "liam.harris@example.com",
+        "days_since_contact": 9,
+        "status": "Almost Due",
+        "tags": [
+            "Photography",
+            "Travel"
+        ],
+        "bio": "Photography enthusiast who enjoys road trips and documenting street culture.",
+        "goal": 12,
+        "next_due_date": "2026-05-31"
+    }
+]
