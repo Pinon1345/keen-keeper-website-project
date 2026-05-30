@@ -1,5 +1,5 @@
 import Banner from "@/components/homePage/Banner";
-import Friends from "@/components/homePage/Friends";
+import Friends from "@/app/friends/friends";
 
 
 export const metadata = {
