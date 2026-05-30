@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Hello Everyone!
 
-## Getting Started
+Project Name: KEEN KEEPER WEBSITE
+Project Owner: FOURKAN BIN ILIAS (PINON)
 
-First, run the development server:
+~ Short Description About This Project:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Keen Keeper is a modern friendship management web application built with Next.js. It helps users track interactions with friends through Call, Text & Video (visualize activity in a timeline section, and analyze engagement through analytics charts).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The main goal of this project is too make a strong relationship tracking simple, visual and interactive.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+~ Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Next.jsx (App Router)
+2. React.jsx (slightly)
+3. Tailwind.CSS
+4. React Toastify
+5. React Icon
+6. Recharts (Pie Charts / Analytics)
+7. Context API (State Management)
 
-## Learn More
+~ Key Features
 
-To learn more about Next.js, take a look at the following resources:
+# 1. Friend Interaction Tracking
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Track interactions like Call, Text and Video with each friend.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 2. Smart Timeline System
 
-## Deploy on Vercel
+View all activities in a structured timeline format with icons and dates.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 3. Search & Filter System
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Search timeline entries by name and filter by interaction type (Call/Text/Video/All).
+
+# 4. Analytics Dashboard
+
+Visualize friendship engagement using interactive Pie Chats (including Animation, legend and tooltip) based on interaction types.
+
+# 5. Modern Responsive UI
+
+Fully responsive design (Small/Medium/Large device) with clean UI using Tailwind CSS for a smooth user experience.
+
+
+~ Thank you for visiting my website!
