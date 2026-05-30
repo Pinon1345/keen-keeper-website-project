@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { HiMiniBellSnooze } from 'react-icons/hi2';
@@ -9,6 +9,8 @@ import { IoIosText } from 'react-icons/io';
 import { FaVideo } from 'react-icons/fa';
 import { IoArrowBackSharp } from 'react-icons/io5';
 import { RotateLoader } from 'react-spinners';
+import TimelineToggleButton from '@/components/Friends/TimelineToggleButton';
+import { CheckInFriendContext } from '@/context/CheckInFriendContext';
 
 const FriendDetail = () => {
   const { id } = useParams();
@@ -30,6 +32,13 @@ const FriendDetail = () => {
       });
   }, [id]);
 
+  const { checkInFriends, setCheckInFriends } = useContext(CheckInFriendContext);
+
+  const handleToggleButton = () => {
+    setCheckInFriends([...friend])
+  }
+  console.log("Hello Timeline Friends", checkInFriends)
+
   if (loading) {
     return <div className="flex justify-center items-center h-60">
       <RotateLoader color="#244D3F" size={40}></RotateLoader>
@@ -45,6 +54,8 @@ const FriendDetail = () => {
     "Almost Due": "badge-warning",
     "On-Track": "badge-success",
   };
+
+
 
   return (
     <div className="container w-11/12 mx-auto my-6 p-4">
@@ -153,36 +164,7 @@ const FriendDetail = () => {
           <div className='bg-base-100 w-auto shadow-lg p-8 mt-6 rounded-xl'>
             <h2 className='font-semibold text-2xl pb-4'>Quick Check-In</h2>
 
-            <div className='flex flex-col sm:flex-row gap-6 items-center mt-4'>
-
-              <button
-                className='btn px-6 py-10 flex-1 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-md hover:border-gray-200 cursor-pointer'>
-
-                <div className='flex flex-col gap-1 items-center'>
-                  <MdPhoneCallback className='text-2xl font-bold'></MdPhoneCallback>
-                  <h2 className='text-lg'>Call</h2>
-                </div>
-              </button>
-
-              <button
-                className='btn px-6 py-10 flex-1 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-md hover:border-gray-200 cursor-pointer'>
-
-                <div className='flex flex-col gap-1 items-center'>
-                  <IoIosText className='text-2xl font-bold'></IoIosText>
-                  <h2 className='text-lg'>Text</h2>
-                </div>
-              </button>
-
-              <button
-                className='btn px-6 py-10 flex-1 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-md hover:border-gray-200 cursor-pointer'>
-
-                <div className='flex flex-col gap-1 items-center'>
-                  <FaVideo className='text-2xl font-bold'></FaVideo>
-                  <h2 className='text-lg'>Video</h2>
-                </div>
-              </button>
-
-            </div>
+            <TimelineToggleButton friend={friend}></TimelineToggleButton>
 
 
           </div>

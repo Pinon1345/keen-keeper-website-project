@@ -7,8 +7,13 @@ export const metadata = {
 
 const StatsPage = () => {
     return (
-        <div>
-            <h2>Hello Stats Page</h2>
+        <div className='bg-[#F8FAFC] border-t-4 border-t-gray-100 rounded-t-2xl'>
+            <div className='container w-11/12 mx-auto my-6 p-4'>
+                <h2 className='text-3xl font-bold mb-6'>Friendship Analytics</h2>
+                <div className='bg-base-100 shadow-sm mx-auto p-4 rounded-xl border-4 border-gray-200'>
+                    <p className='text-lg text-gray-500 font-semibold'>By Interaction Type</p>
+                </div>
+            </div>
         </div>
     );
 };
